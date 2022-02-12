@@ -19,7 +19,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 from login import login
 
-NEED_BEFORE = False  # 如需补报则置为True，否则False
+NEED_BEFORE = True  # 如需补报则置为True，否则False
 START_DT = dt.datetime(2022, 1, 14)  # 需要补报的起始日期
 RETRY = 5
 RETRY_TIMEOUT = 120
